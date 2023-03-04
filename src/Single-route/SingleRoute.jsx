@@ -6,6 +6,11 @@ function SingleRoute() {
   return (
     <div>
       <p>{user.name}</p>
+      <p>{user.username}</p>
+      <p>{user.email}</p>
+      <p>{user.address.street}</p>
+      <p>{user.company.name}</p>
+      <p>{user.address.zipcode}</p>
     </div>
   )
 }
