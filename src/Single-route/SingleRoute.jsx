@@ -5,12 +5,12 @@ function SingleRoute() {
   const user = useLocation()?.state
   return (
     <div>
-      <p>{user.name}</p>
-      <p>{user.username}</p>
-      <p>{user.email}</p>
-      <p>{user.address.street}</p>
-      <p>{user.company.name}</p>
-      <p>{user.address.zipcode}</p>
+      <p>name: {user.name}</p>
+      <p>nick: {user.username}</p>
+      <p>user-email: {user.email}</p>
+      <p>adress: {user.address.street}</p>
+      <p>work: {user.company.name}</p>
+      <p>zipcode: {user.address.zipcode}</p>
     </div>
   )
 }
